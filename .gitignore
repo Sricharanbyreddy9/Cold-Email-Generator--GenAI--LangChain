@@ -1,0 +1,18 @@
+# secrets / env
+.env
+app/.env
+.streamlit/secrets.toml
+
+# venv / caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# notebooks & checkpoints (prevent secret leaks)
+*.ipynb
+.ipynb_checkpoints/
+
+# local vector stores / caches
+vectorstore/
+chromadb/
