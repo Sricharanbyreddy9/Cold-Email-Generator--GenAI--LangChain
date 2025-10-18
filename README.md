@@ -29,7 +29,7 @@ It fetches job pages, extracts or reconstructs the role, anchors to your **PDF r
 ---
 
 ## 🗂️ Project Structure
-
+```
 Cold-Email-Generator/
 ├─ app/
 │ ├─ main.py # Streamlit UI (fetch → extract → email)
@@ -42,8 +42,7 @@ Cold-Email-Generator/
 ├─ .gitignore # Protects secrets, venv, notebooks, vectorstore
 └─ vectorstore/ # On-disk Chroma DB (ignored by git)
 
-yaml
-Copy code
+```
 
 ---
 
